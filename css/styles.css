@@ -26,3 +26,9 @@ nav .links-container a {
 nav .links-container a:hover {
   color: var(--nav-links-hover-color);
 }
+
+@media screen and (max-width:520px) {
+  nav .links-container {
+    display: none;
+  }
+}
