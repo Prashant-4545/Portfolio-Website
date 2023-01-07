@@ -7,13 +7,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #F7F5EB;
 }
 
 nav {
   width: 100%;
-  padding: 30px;
+  padding: 30px 30px;
   display: flex;
   justify-content: space-between;
+ 
 }
 
 nav .links-container a {
@@ -32,3 +34,36 @@ nav .links-container a:hover {
     display: none;
   }
 }
+
+/*Informaction*/
+.info{
+
+  
+}
+/*Cv Downlode*/
+.Downlode_btn {
+  background: #c670e0;
+  background-image: -webkit-linear-gradient(top, #c670e0, #a314cf);
+  background-image: -moz-linear-gradient(top, #c670e0, #a314cf);
+  background-image: -ms-linear-gradient(top, #c670e0, #a314cf);
+  background-image: -o-linear-gradient(top, #c670e0, #a314cf);
+  background-image: linear-gradient(to bottom, #c670e0, #a314cf);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 15px 35px 11px 40px;
+  text-decoration: none;
+}
+
+.Downlode_btn:hover {
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  text-decoration: none;
+} 
