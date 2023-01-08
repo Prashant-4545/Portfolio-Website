@@ -112,7 +112,86 @@ nav #hamburger_button .hamburger-bottom {
 
 
 /*Informaction*/
-/* .info {} */
+.header-content .container.grid-2 {
+  grid-template-columns: 2.5fr 3.5fr;
+  min-height: calc(100vh - 6rem);
+  padding-bottom: 2.5rem;
+  text-align: left;
+}
+
+.header-title {
+  font-size: 3.8rem;
+  line-height: 0.8;
+  color: var(--dark-one);
+}
+
+.header-content .text {
+  margin: 2.15rem 0;
+}
+
+.header-content .image .img-element {
+  max-width: 750px;
+}
+
+header .points1 {
+  width: 420px;
+  bottom: -75px;
+  left: -150px;
+}
+
+header .points2 {
+  width: 70%;
+  top: 65%;
+  left: 71%;
+}
+
+header .square {
+  right: 68%;
+  top: 71%;
+}
+
+header .triangle {
+  right: 7%;
+  bottom: 75%;
+}
+
+header .xshape {
+  right: 4%;
+  bottom: 50%;
+}
+
+header .half-circle1 {
+  left: 50%;
+  bottom: 82%;
+}
+
+header .half-circle2 {
+  left: 5%;
+  top: 67%;
+}
+
+header .wave1 {
+  bottom: 75%;
+  left: 20%;
+}
+
+header .wave2 {
+  bottom: 8%;
+  right: 55%;
+}
+
+header .circle {
+  left: 38%;
+  bottom: 63%;
+}
+
+.letters {
+  position: absolute;
+  width: 13.5%;
+  top: -5px;
+  left: 15px;
+  opacity: 0.06;
+}
 
 /*Cv Downlode*/
 .Downlode_btn {
